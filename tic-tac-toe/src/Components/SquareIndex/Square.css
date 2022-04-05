@@ -1,0 +1,21 @@
+.square {
+    min-width: 100px;
+    min-height: 100px;
+    font-size: 64px;
+    text-align: center;
+    color: #1CDBF5;
+    font-weight: bolder;
+    padding: 30px;
+}
+
+.fc-red {
+    color: red;
+}
+
+.fc-white {
+    color: white;
+}
+
+.fw-600 {
+    font-weight: bolder;
+}

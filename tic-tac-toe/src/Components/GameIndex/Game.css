@@ -1,0 +1,52 @@
+
+.app-header {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    text-align: center;
+    background-color: #131A28;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading-text {
+    color: white;
+    font-size: 42px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 50px;
+}
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-center {
+    justify-content: center;
+}
+
+.b-bottom-right {
+    border-right: 15px solid rgb(156, 189, 156);
+    border-bottom: 15px solid green;
+}
+
+.b-bottom {
+    border-bottom: 15px solid green;
+}
+
+.b-right {
+    border-right: 15px solid rgb(156, 189, 156);
+}
+
+.reset-button {
+    width: max-content;
+    margin: 10px auto 20px auto;
+}
