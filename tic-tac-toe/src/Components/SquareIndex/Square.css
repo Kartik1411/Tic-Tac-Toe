@@ -8,6 +8,10 @@
     padding: 30px;
 }
 
+.square:hover{
+    cursor: pointer;
+}
+
 .fc-red {
     color: red;
 }
