@@ -18,6 +18,7 @@ function Game() {
     }
 
     const resetGame = () => {
+        updateIsOChance(true);
         updateGameState(initialState)
     }
     useEffect(() => {
