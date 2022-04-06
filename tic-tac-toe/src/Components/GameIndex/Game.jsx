@@ -55,19 +55,19 @@ function Game() {
             <p>Note: First chance is of O</p>
             <button className="reset-button" onClick={resetGame}>Reset Game</button>
             <div className="row grid-center">
-                <Square className="b-bottom-right" onClick={() => onUserClicked(0)} state={gameState[0]}/>
-                <Square className="b-bottom-right" onClick={() => onUserClicked(1)} state={gameState[1]}/>
-                <Square className="b-bottom" onClick={() => onUserClicked(2)} state={gameState[2]}/>
+                <Square className="b-bottom-right b-left b-top" onClick={() => onUserClicked(0)} state={gameState[0]}/>
+                <Square className="b-bottom-right b-top" onClick={() => onUserClicked(1)} state={gameState[1]}/>
+                <Square className="b-bottom-right b-top" onClick={() => onUserClicked(2)} state={gameState[2]}/>
             </div>
             <div className="row grid-center">
-                <Square className="b-bottom-right" onClick={() => onUserClicked(3)} state={gameState[3]}/>
+                <Square className="b-bottom-right b-left" onClick={() => onUserClicked(3)} state={gameState[3]}/>
                 <Square className="b-bottom-right" onClick={() => onUserClicked(4)} state={gameState[4]}/>
-                <Square className="b-bottom" onClick={() => onUserClicked(5)} state={gameState[5]}/>
+                <Square className="b-bottom-right" onClick={() => onUserClicked(5)} state={gameState[5]}/>
             </div>
             <div className="row grid-center">
-                <Square className="b-right" onClick={() => onUserClicked(6)} state={gameState[6]}/>
-                <Square className="b-right" onClick={() => onUserClicked(7)} state={gameState[7]}/>
-                <Square onClick={() => onUserClicked(8)} state={gameState[8]}/>
+                <Square className="b-bottom-right b-left" onClick={() => onUserClicked(6)} state={gameState[6]}/>
+                <Square className="b-bottom-right" onClick={() => onUserClicked(7)} state={gameState[7]}/>
+                <Square className="b-bottom-right" onClick={() => onUserClicked(8)} state={gameState[8]}/>
             </div>
         </div>
     );

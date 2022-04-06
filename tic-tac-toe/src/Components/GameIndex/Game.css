@@ -46,6 +46,14 @@
     border-right: 15px solid rgb(156, 189, 156);
 }
 
+.b-left {
+    border-left: 15px solid rgb(156, 189, 156);
+}
+
+.b-top {
+    border-top: 15px solid green;
+}
+
 .reset-button {
     width: max-content;
     margin: 10px auto 40px auto;
